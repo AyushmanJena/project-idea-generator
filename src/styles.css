@@ -1,1 +1,120 @@
 /* You can add global styles to this file, and also import other style files */
+
+@import "tailwindcss";
+
+body{
+  margin: 0;
+  background-color: #fbf9f7;
+  font-family: "Fustat", sans-serif;
+}
+
+.fustat-<uniquifier> {
+           font-family: "Fustat", sans-serif;
+           font-optical-sizing: auto;
+           font-weight: <weight>;
+           font-style: normal;
+         }
+
+/* Markdown Base */
+.markdown-container {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  line-height: 1.7;
+  color: #3a2d23;
+  font-size: 15px;
+}
+
+/* Headings */
+.markdown-container h1,
+.markdown-container h2,
+.markdown-container h3,
+.markdown-container h4 {
+  margin-top: 20px;
+  margin-bottom: 10px;
+  font-weight: 600;
+  color: #dc550b;
+}
+
+.markdown-container h1 {
+  font-size: 22px;
+  border-bottom: 2px solid #fba271;
+  padding-bottom: 5px;
+}
+
+.markdown-container h2 {
+  font-size: 19px;
+}
+
+.markdown-container h3 {
+  font-size: 17px;
+}
+
+/* Paragraphs */
+.markdown-container p {
+  margin-bottom: 12px;
+}
+
+/* Lists */
+.markdown-container ul,
+.markdown-container ol {
+  margin-left: 20px;
+  margin-bottom: 15px;
+}
+
+.markdown-container li {
+  margin-bottom: 6px;
+}
+
+/* Bold & Italics */
+.markdown-container strong {
+  color: #b34700;
+  font-weight: 600;
+}
+
+.markdown-container em {
+  color: #7a4d3a;
+}
+
+/* Code blocks */
+.markdown-container pre {
+  background: #fff3e8;
+  padding: 12px;
+  border-radius: 8px;
+  overflow-x: auto;
+  margin-bottom: 15px;
+}
+
+.markdown-container code {
+  background: #ffe6d5;
+  padding: 2px 6px;
+  border-radius: 4px;
+  font-size: 13px;
+}
+
+/* Blockquotes */
+.markdown-container blockquote {
+  border-left: 4px solid #fba271;
+  padding-left: 12px;
+  margin: 15px 0;
+  color: #7a4d3a;
+  background: #fff5ec;
+  border-radius: 4px;
+}
+
+/* Horizontal rule */
+.markdown-container hr {
+  border: none;
+  height: 1px;
+  background: #fba271;
+  margin: 20px 0;
+}
+
+/* Links */
+.markdown-container a {
+  color: #dc550b;
+  text-decoration: underline;
+  transition: 0.2s ease;
+}
+
+.markdown-container a:hover {
+  color: #a63d00;
+}
